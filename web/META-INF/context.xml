@@ -1,0 +1,8 @@
+<Context>
+	<Resource name="jdbc/news" auth="Container" type="javax.database.DataSource"
+		maxActive="100" maxIdle="30" maxWait="10000" username="sa" password="bai123"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		 url="jdbc:sqlserver://10.0.0.190:5545;DatabaseName=NewsManagerSystem" />
+
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+</Context>
